@@ -1,0 +1,105 @@
+---
+title: "Individual Rationality and Preferences"
+subtitle: "PS 171B - Week 1"
+author: "Derek Holliday"
+date: "4/4/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Introductions
+
+- Name
+
+- Year
+
+- Hometown
+
+- Interest in Class
+
+  - Problem you want to solve?
+  
+  - Interesting application?
+  
+  - New way of thinking?
+
+---
+
+# Administration
+
+- Attend your assigned section
+
+- Section participation is 10% of total grade
+
+  - Can't participate if you don't attend
+  
+  - ONE unexcused absence permitted without penalty
+
+- Office Hours:
+
+  - Wednesday/Thursday 1-2 PM Bunche 4337
+
+- Website: **github.com/deholliday/PS171B**
+  
+---
+
+background-image: url(http://1.bp.blogspot.com/-0NFXhfCUaZ0/Uw8nHIKm-_I/AAAAAAAAD9U/wBpz_SqsqKE/s1600/Calvin_and_hobbes_cynical-school-system.jpg)
+background-position: 50% 50%
+background-size: 100%
+class: center, top
+
+# Purpose/Format of Section
+
+---
+
+# Review of Preference Notation
+
+Strict Preference:
+
+$x \succ y$ or $xPy$
+
+Weak Preference:
+
+$x \succeq y$ or $xRy$
+
+Indifference:
+
+$x \sim y$ or $xIy$
+
+---
+
+# Review of Rationality
+
+Preference orderings must be **complete** and **transitive** in order to be rational.
+
+- **Completeness**: $\forall x \in X$ and $\forall y \in X$, either $xRy$ or $yRx$
+
+- **Transitivity**:  $\forall x \in X$, $\forall y \in X$, and $\forall z \in X$ if $xRy$ and $yRz$ then $xRz$
+
+Usually we don't have issues with completeness. When might preferences be intransitive?
+
+---
+
+# Practice Problem (Shepsle 2.4)
+
+Two actors hold the following preferences over outcomes $w, \ x, \ y,$ and $z$:
+
+- Mr. $i$: $xPw, \ xPy, \ zPx, \ yPz, \ wPy,$ and $wPz$
+
+- Ms. $j$: $xIy, \ xPz, \ xPw, \ yPz, \ yPw,$ and $wIz$
+
+When presented with a choice over any subset of 3 or more outcomes...
+
+- For which subsets can the actor identify their most-preferred choice(s)?
+
+- Do any of the subsets contain a preference intransitivity among all outcomes in the subset?
+
