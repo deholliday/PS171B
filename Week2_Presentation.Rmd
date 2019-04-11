@@ -1,0 +1,93 @@
+---
+title: "Expected Utility"
+subtitle: "PS 171B - Week 2"
+author: "Derek Holliday"
+date: "4/11/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(kableExtra)
+```
+
+# Utility Functions
+
+Take an **outcome** as an input, assigns it a **numerical value**.
+
+Can only do this when preference orderings of outcomes are **transitive**.
+
+## Knowledge Check
+
+I strictly prefer Guinness to Heineken, strictly prefer Heineken to Bud Light, and strictly prefer Guinness to Bud Light. Can a utility function be assigned to my preferences? If so, give an example.
+
+---
+
+# Values and Beliefs
+
+**Values** involve how much we (dis)like particular outcomes. However, we are often not able to pick outcomes with certainty. **Beliefs** help measure this uncertainty... given our choice of a certain action or policy, with what probability does an outcome occur?
+
+---
+
+# Expected Utility
+
+Basically, how good do we expect the outcome of our action/policy to be?
+
+Involves multiplying the conditional probability of all possible outcomes given the action taken by the utility of the outcome.
+
+## Knowledge Check
+
+Its Friday night, sections are done, time to go out. I've got two choices: Flaming Saddles or Cabo Cantina. My values and beliefs are as follows:
+
+Values: $U(G) = 10$, $U(H) = 8$, $U(B) = 1$
+
+Beliefs: $Pr(G|FS) = 0.5$, $Pr(H|FS) = 1$, $Pr(B|FS) = 1$, $Pr(G|CC) = 0.25$, $Pr(H|CC) = 0.75$, $Pr(B|CC) = 1$
+
+What are the expected utilities of choices? What set of beliefs would change this preference ordering?
+
+---
+
+# Practice Problem: Shepsle 2.6
+
+You are presented with two pairs of lotteries, each with three outcomes: $\quad$
+$x =$ `$`2.5 million, $y =$ `$`0.5 million, and $z =$ `$`0.
+
+$P_1$ and $P_2$ are the first pair, with probabilities $P_1 = \big(p_1(x),p_1(y),p_1(z)\big) = (0, 1, 0)$ and $P_2 = (0.1, 0.89, 0.01)$.
+
+$P_3$ and $P_4$ are the second pair, with probabilities $P_3 = (0, 0.11, 0.89)$ and $P_4 = (0.1, 0, 0.9)$.
+
+Empirically, most people express strict preferences for $P_1$ to $P_2$ and $P_4$ to $P_3$. Is this behavior consistent with the theory of expected utility?
+
+**HINT:** You don't actually need to know anything about the utility function to solve this problem. Set up the empirical preferences as inequalities of expected utilities, and try to coax out a contradiction. Yes, this will involve algebra.
+
+---
+
+# Practice Problem: Group Preferences
+
+Two more people have joined me on my Friday adventure: Alex and Bo. We've also added one more option: stay in. Our expected utilities are as follows:
+
+```{r, echo=F}
+df = data.frame(EU = c("FS","CC","SI"),
+                Derek = c(14,9.5,8),
+                Alex = c(8.5,12,10),
+                Bo = c(10,9,12.5))
+kable(df,format = "html")
+```
+
+Does the above profile of preferences give a transitive social ordering over policy alternatives?
+
+---
+
+# Practice Problem: More Groups
+
+Let's say the previous expected utilities amongst group members were all due to differences in beliefs, but we value each outcome in the same fashion such that:
+
+$U(G) = 10$, $U(H) = 8$, $U(B) = 1$
+
+For now, let's remove Bud Light from our consideration... its basically water anyway. Suppose the **absence** of any beverage has a utility of 0 and that utilities are independent. Is there a transitive social ordering over outcomes?
