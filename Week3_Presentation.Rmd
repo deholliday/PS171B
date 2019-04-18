@@ -1,0 +1,108 @@
+---
+title: "Voting Rules and May's Theorem"
+subtitle: "PS 171B - Week 1"
+author: "Derek Holliday"
+date: "4/4/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Homework 1 Comments
+
+- Make sure you understand the process of calculating expected utility
+
+- Show your work when showing whether or not something is a cycle
+
+- Check solutions online, come to my office hours with questions
+
+---
+
+# A Quick Note on HW2 Q1-2
+
+When calculating group preferences for large numbers of people divided into groups with distinct preference orderings, we still use majoritarian voting with pairwise comparisons. The only difference is the way we sum up the votes (by group).
+
+## Example:
+
+Group 1 (100 people) prefers $A$ to $B$, but groups 2 and 3 (75 and 20 people, respectively) both prefer $B$ to $A$. What is the group preference of all people?
+
+---
+
+# HW2 Q3: Profiles and Decisions
+
+We can represent a series of Yays, Nays, and abstentions as a vector of 1, -1, and 0s. This is called a **voter profile**.
+
+The collective decision of the group, then, is a function of the vector that can be represented as a single outcome 1, -1, or 0. This outcome will depend exclusively on the function (voting rule) we consider.
+
+## Example:
+
+Say we have a group of 5 people such that persons 1 and 2 vote Yay, 3 abstains, and 4 and 5 vote Nay. Write the voter profile of this group.
+
+Say we are using a majority rule voting system. What is the collective decision of the group?
+
+---
+
+# Other Rules
+
+- Majority Rule with Tie-Breaker
+
+- Electoral College
+
+- Jury Rule
+
+---
+
+# May's Theorem Axioms
+
+- Neutrality
+
+- Anonymity
+
+- Fragile Ties
+
+Can you think of voting rules that violate these axioms?
+
+---
+
+# Practice Problem: Warring Fields
+
+The political science department TAs must make a decision on whether to go on strike. There are 7 TAs divided into 2 subfields (TAs 1,2,3 in American, TAs 4,5,6,7 in Comparative). Say the voting profile is:
+
+$(-1,-1,0,1,1,-1,1)$
+
+What is the outcome if we decide by majority rule? Jury rule?
+
+Now say each subfield collectively has one vote, which is decided by majority rule within each subfield. What is the outcome?
+
+Keeping with the electoral college rule, say the Comparativists now have 2 votes instead of 1. What is the outcome?
+
+---
+
+# Warring Fields (continued)
+
+TAs 1,2,3 in American, TAs 4,5,6,7 in Comparative
+
+$(-1,-1,0,1,1,-1,1)$
+
+Focusing on the electoral college rule, lets consider 2 of our tests:
+
+- Neutrality
+
+- Anonymity (switch TAs 2 and 4)
+
+Does our electoral college rule violate these tests?
+
+---
+
+# Warring Fields (continued)
+
+TAs 1,2,3 in American, TAs 4,5,6,7 in Comparative. Let's change the profile to:
+
+$(-1,1,0,1,-1,-1,1)$
+
+Comparativists still have 2 votes. Does this satisfy the fragile ties test?
+
