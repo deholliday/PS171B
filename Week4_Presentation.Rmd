@@ -1,6 +1,6 @@
 ---
 title: "Arrow's Theorem and Midterm Review"
-subtitle: "PS 171B - Week 1"
+subtitle: "PS 171B - Week 4"
 author: "Derek Holliday"
 date: "4/4/2019"
 output:
