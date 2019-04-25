@@ -1,0 +1,113 @@
+---
+title: "Arrow's Theorem and Midterm Review"
+subtitle: "PS 171B - Week 1"
+author: "Derek Holliday"
+date: "4/4/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Administration
+
+- Midterm on Monday in class
+
+- Bring blue books, something to write with
+
+- Review session tomorrow (April 26) 11-12 in Haines 122
+
+---
+
+# Homework 2 Comments
+
+- Check Answer Key
+
+- Strategic vs. Sincere Agendas
+
+- What counts as a May's Axiom violation?
+
+- Remember group membership matters
+
+- Sometimes, there are no shortcuts
+
+---
+
+# Agenda Setting
+
+Recommendation: write out all possible agendas as decision trees. Its faster, clearer, and prevents you from missing a possible combination.
+
+Also, with 3 alternatives, you only have to write out 3 decision trees.
+
+---
+
+# Taking a Step Back...
+
+If there is a Condorcet winner, does the agenda order matter? Why or why not?
+
+---
+
+# Sincere vs. Strategic Voting
+
+.pull-left[
+![Sincere](sincere_voting.png)
+
+.caption[
+Sincere Voting
+]
+
+]
+
+.pull-right[
+![Strategic](strategic_voting.png)
+
+.caption[
+Strategic Voting
+]
+
+]
+
+---
+
+# Practice Problem
+
+Assume three individuals have the following preferences over outcomes A, B, and C:
+
+```{r, echo=F, warning = F}
+library(kableExtra)
+df = data.frame(P1 = c("A","B","C"),
+                P2 = c("B","C","A"),
+                P3 = c("C","A","B"))
+kable(df, type = "html")
+```
+
+First, determine the social ordering of preferences. Then, assume you are person 1. What agenda would you choose to get your most desired outcome assuming all group members vote sincerely? Assuming all group members vote strategically?
+
+---
+
+# Arrow's Theorem
+
+Given more than two alternatives, is there a voting rule that satisfies 6 minimal fairness/practicality requirements? According to Arrow, no.
+
+Collective choice rules can be **STUPID**:
+
+- **S**everal alternatives
+
+- **T**ransitivity
+
+- **U**niversal domain
+
+- **P**areto
+
+- **I**ndependence of irrelevant alternatives
+
+- **D**ictators
+
+---
+
+class: center, inverse, middle
+
+# Questions?
