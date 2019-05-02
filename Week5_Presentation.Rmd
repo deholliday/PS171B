@@ -1,0 +1,88 @@
+---
+title: "Introduction to Spatial Models"
+subtitle: "PS 171B - Week 5"
+author: "Derek Holliday"
+date: "5/2/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Midterm Debrief
+
+- Will be returned next section
+
+- Importance of understanding meaning/application of theorems
+
+---
+
+# Real World Example: Quadratic Voting
+
+.pull-left[
+Voting rule is the same (SMR), which is typically one person, one vote. But do all votes mean the same amount to each person? **Quadratic Voting** accounts for variance in preference intensity by allowing voters to "buy" more votes, but at a cost.
+
+For example, Democrats in Colorado won majorities in both houses and the governorship and needed to determine spending priorities. Each legislator was given 100 chips to "spend" on votes. 1 vote cost 1 chip, 2 votes cost 4, 3 cost 9... all the way up to 10 votes costing all 100 chips.
+]
+
+.pull-right[
+![Colorado](coloradohouse.jpg)
+
+]
+
+---
+
+# Spatial Model Basics
+
+Alternatives are a matter of degree, and we can represent utilities over alternatives as points on a line.
+
+## Practice:
+
+Derek's at the bar (again) explaining his theory of the utility of beer as a function of how light/dark it is to his roommates, Kevin and Julian. The three have the following preference orderings over lightness/darkness:
+
+```{r, echo=F, warning = F}
+library(kableExtra)
+df = data.frame(Derek = c("Dark","Light","Amber"),
+                Kevin = c("Amber","Dark","Light"),
+                Julian = c("Light","Amber","Dark"))
+kable(df, type = "html")
+```
+
+Assume the x-axis is a continuous scale of lightness/darkness and the y-axis is the utility of x. Draw a figure such that the above preference orderings are represented spatially.
+
+---
+
+# Single-Peaked Preferences
+
+For each person, there is a single "ideal" point and utility decreases as choices get farther from it.
+
+Violations:
+
+- Non-quantifiable issues
+
+- Multiple peaks
+
+Black's Theorem: given SPP and three available alternatives, all people agree that the middle one will never be worst (could be best or middle). If we further assume a single dimension, there is always a Condorcet winner (Median Voter Theorem).
+
+Does SPP violate any of Arrow's axioms?
+
+---
+
+# Symmetric Preferences
+
+Our preferences are just as sensitive to outcome being to low as too high (more formally, the loss of utility for any move $x$ away from ideal point is the same).
+
+Alternatives:
+
+- Asymmetric Preferences
+
+- Euclidian preferences (subset)
+
+Symmetry allows us to draw preferences as points on a line.
