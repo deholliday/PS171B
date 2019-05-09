@@ -1,0 +1,79 @@
+---
+title: "More Spatial Models"
+subtitle: "PS 171B - Week 6"
+author: "Derek Holliday"
+date: "5/9/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Some Terms
+
+- Weak Condorcet Winner
+
+- Indifference Point
+
+- Preferred-to Set
+
+- Win-set
+
+---
+
+# Practice Problem: City Council
+
+The Santa Monica city council is considering a limit on the number of electric scooters companies are allowed to deploy within city limits. The council consists of 7 members. Ann, Bob, and Cindy are scooter moderates, preferring 750, 500, and 1000 scooters (respectively). Devin and Erin, two venture capitalist plants, want scooter totals of 5000 and 6000. Frank and Grant, the only decent human beings left in Santa Monica, want a ban on all scooters.
+
+Assume the council votes using majority rule. Identify the Condorcet Winner.
+
+--
+
+Tragically, Frank is run over by a scooter vigilante and cannot attend the council vote. Again identify the Condorcet Winner(s).
+
+---
+
+# City Council (continued)
+
+Frank's back and ready to rein in rampant scooter hooliganism. Say the status quo is at 3000 scooters and a proposal is on the table to bring that total down to 1000. Does it pass the council?
+
+--
+
+The scooter limit is now at 1000, but Frank and Grant aren't satisfied. They propose a complete ban. Does this pass the city council?
+
+---
+
+# City Council Committee
+
+Negotiations stall and scooters run rampant on the streets, with gangs of scooter-riding bandits preying on the elderly. 4000 scooters now litter Santa Monica. In response, the city forms a committee on scooter safety consisting of Ann, Devin, and Erin. As venture capitalist plants, however, we learn that Devin and Erin's utility functions are right-skewed. Given Derek's bad drawing, draw the winset of the status quo.
+
+---
+
+# Committees in Two Dimensions
+
+Society has broken down into a dystopian world filled with scooter-riding tribes controlling parcels of the wasteland formerly known as Santa Monica. The city council committee reconvenes with preferences over two dimensions: number of scooters and funding for the SMPD. Again, given Derek's drawing, indicate the majority rule winset of the status quo.
+
+---
+
+# Midterm Grade Dispute Policy
+
+- Must wait 24 hours (but within a week)
+
+- Explain in writing why the midterm was not graded correctly
+
+- Return midterm to me with written explaination
+
+Things to consider:
+
+- Only dispute if you can clearly show something is marked incorrectly (frivolous disputes = lower participation grade)
+
+- Entire exam will be regraded, so grade can go up or down
+
+- Disputing/negotiating grades in person = forfeit right to a regrade
