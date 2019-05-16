@@ -1,0 +1,107 @@
+---
+title: "Even More Spatial Models"
+subtitle: "PS 171B - Week 7"
+author: "Derek Holliday"
+date: "5/16/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Homework 3 Review
+
+Minor points:
+
+- People are not Condorcet Winners (points are)
+
+- Weak Condorcet Winners defined over range, not two discrete points
+
+Major point: winsets in single-dimension
+
+---
+
+# Winsets in Single-Dimension
+
+![winset1](winset_1d_1.png)
+
+---
+
+# Winsets in Single-Dimension
+
+![winset1](winset_1d_2.png)
+
+---
+
+# Winsets in Single-Dimension
+
+![winset1](winset_1d_3.png)
+
+---
+
+# More Features of Spatial Models
+
+### McKelvey's Chaos Theorem
+
+We can get to **any** end point from any status quo with pure majority rule through iterated proposals.
+
+### Best Proposals
+
+Point in winset closest to ideal point (more formally, point where winset is tanget to indifference curve).
+
+---
+
+# Spatial Models and Unanimity
+
+Unanimity winset: intersection of all preferred-to sets (often empty)
+
+![winset1](winset_2d_1.png)
+
+---
+
+# Spatial Models and Unanimity
+
+![winset1](winset_2d_2.png)
+
+---
+
+# Pareto Winsets
+
+Set of policies that will be stable (not move) under unanimity. Status Quo outside Pareto Set means Unanimity Winset isn't empty.
+
+![winset1](winset_2d_3.png)
+
+---
+
+# Committees
+
+Another way to introduce stability to our spatial models. Committees consider bills under their jurisdiction (and amendmendments germane to that bill in that jurisdiction). The consequence is committees have negative power via their gatekeeping function.
+
+Two ways committee bills can be considered:
+
+- Closed Rule
+
+- Open Rule
+
+Importantly, preferences of the committee can be different than the chamber as a whole.
+
+---
+
+# Practice Problem: Scooter Committees
+
+The Santa Monica city council is considering a limit on the number of electric scooters companies are allowed to deploy within city limits. The council consists of 7 members. Ann, Bob, and Cindy are scooter moderates, preferring 750, 500, and 1000 scooters (respectively). Devin and Erin, two venture capitalist plants, want scooter totals of 5000 and 6000. Frank and Grant want a ban on all scooters.
+
+There are two committees with potential jurisdiction over scooters: the transportation committee (consisting of Frank, Grant, and Bob) and the public safety committee (Ann, Cindy, and Devin).
+
+Assume there are currently 600 scooters in Santa Monica. On a single dimension, draw the council member preferences and status quo. Note the Chamber and committee medians.
+
+---
+
+# Practice Problem: Scooter Committees
+
+![committee](committee.png)
+
+For each committee, what is the outcome under closed rule? Open rule? Assume committees can withhold the bill from floor consideration if submitting it to the floor would lead to a worse outcome.
