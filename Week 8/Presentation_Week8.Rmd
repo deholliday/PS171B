@@ -1,0 +1,102 @@
+---
+title: "Midterm II Review"
+subtitle: "PS 171B - Week 8"
+author: "Derek Holliday"
+date: "5/23/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Concepts
+
+.pull-left[
+
+- Spatial Model
+
+- Number of Dimensions
+
+- Single-Peaked Preferences
+
+- Euclidian Preferences
+
+- Median Voter Theorem
+
+- Weak/Strict Condorcet Winners
+
+- Indifference Point/Curve
+
+]
+
+.pull-right[
+
+- Preferred-to Set
+
+- Winset
+
+- Plott conditions
+
+- Preference Outlier
+
+- Germaneness
+
+- Closed/Open Rule
+
+- Gatekeeping
+
+]
+
+---
+
+# Practice Problem 1
+
+A legislature is working on a public works bill which will affect the level of spending on highway construction and on public transportation projects. There are 3 groups on this issue A, B and C. The members of each group have preferences identical to each other, but different from other groups. Ideal points for each group are indicated on the diagram. Everyone has Euclidean preferences.
+
+---
+
+# Practice Problem 1
+
+![diagram](diagram_1a.png)
+
+Depict the majority rule winset of the status quo. What do each of the objects on the diagram represent?
+
+---
+
+# Practice Problem 1
+
+![diagram](diagram_1a.png)
+
+
+A member of group A is allowed to make a proposal which will be voted against the status quo, with no amendments or other proposals allowed. If the proposal fails, the SQ remains in effect. What should group A propose? What will happen?
+
+Is the policy outcome a Condorcet winner?
+
+---
+
+# Practice Problem 1
+
+![diagram](diagram_1a.png)
+
+Suppose instead that group B is allowed to make a proposal (same rules as before), but the proposal will only be adopted  if it gains unanimous approval. What should B propose adn what do you predict will happen?
+
+---
+
+# Practice Problem 2
+
+![diagram](diagram_2a.png)
+
+---
+
+# Practice Problem 2
+
+![diagram](diagram_2b.png)
+
+---
+
+# Practice Problem 2
+
+![diagram](diagram_2c.png)
