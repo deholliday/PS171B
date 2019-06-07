@@ -1,0 +1,112 @@
+---
+title: "Structure-Induced Equilibrium"
+subtitle: "PS 171B - Week 10"
+author: "Derek Holliday"
+date: "6/6/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Agenda
+
+- Evaluations
+
+- SIE/PIE
+
+- Midterm II
+
+---
+
+background-image: url("eval.jpg")
+background-size: 60%
+
+---
+
+# Structure/Preference-Induced Equilibrium
+
+- PIEs occur without structure; the way in which ideal points are organized either do or do not create a set of stable points
+
+- SIEs are points that are stable because the voting structures and their interaction with the ideal points. For our purpose, we have two different voting structures (committee systems under open and closed rule)
+
+---
+
+# Example
+
+Rural Committee: 3, 6, 8 | Urban Committee: 1, 2, 7
+
+.center[![fig2](fig2.png)]
+
+What do we expect will happen under closed rule? Open rule? Are there PIEs or SIEs?
+
+---
+
+# Example
+
+.center[![fig2ans](fig2ans.png)]
+
+---
+
+# Practice Problem
+
+Guns Committee: 1, 2, 3 | Butter: 3, 4, 5
+
+.pull-left[![fig1](fig1.png)]
+
+.pull-right[
+
+Is the SQ stable under a committee system with closed rule? open rule? Simple majority rule (without committees?) If not, where would you predict the bill to end up?
+
+]
+
+---
+
+# Practice Problem
+
+.pull-left[
+
+![fig1](fig1ans1.png)
+
+Now draw the set of points that are stable under closed and open rule]
+
+.pull-right[![fig1](fig1ans2.png)]
+
+
+
+
+---
+
+# Practice Problem
+
+.pull-left[![fig1](fig1ans3.png)]
+
+.pull-right[![fig1](fig1ans4.png)]
+
+---
+
+# Midterm II
+
+- Winsets in a single dimension
+
+- Stable points in two dimensions
+
+---
+
+# Final
+
+Wednesday, June 12 8am
+
+Bring 2 Blue Books
+
+Office Hours: Tuesday 2-4pm
+
+---
+
+class: inverse, center, middle, title-slide
+
+# Thank you!
+
